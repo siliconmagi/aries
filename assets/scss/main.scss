@@ -1,0 +1,44 @@
+html, body {
+	background-color: hsla(330, 100%, 10%, 1);
+	color: hsla(330, 100%, 65%, 1);
+	letter-spacing: 0.5px;
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	height: 100vh;
+	margin: 0;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+}
+
+h3 {
+	margin: 10px 0 10px 0;
+}
+
+p {
+	font-size: 1.2em;
+  text-align: left;
+margin: 0;
+}
+
+li {
+	text-align: left;
+	font-size: 1.2em;
+}
+
+a, a:hover, a:focus, a:visited {
+	color: hsla(330, 100%, 90%, 1);
+}
+
+.logo {
+	width: 23px;
+}
+
+.page-enter-active, .page-leave-active {
+	transition: opacity 0.5s;
+}
+
+.page-enter, .page-leave-active {
+	opacity: 0;
+}
