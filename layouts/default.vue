@@ -32,7 +32,7 @@ export default {
     display: inline-block;
     color: white;
     letter-spacing: 1px;
-    background-color: hsla(280, 25%, 51%, 1);
+    background-color: hsla(302, 13%, 26%, 1);
     border-radius: 3px;
     text-decoration: none;
     text-transform: uppercase;
@@ -44,8 +44,7 @@ export default {
   .button:hover, .button:focus
   {
     color: white;
-    background-color: hsla(280, 25%, 35%, 1);
-    box-shadow: 0px 1px 4px 2px rgba(0,0,0,0.2);
+    background-color: hsla(302, 13%, 46%, 1);
   }
 
   .logobutton, .logobutton:visited

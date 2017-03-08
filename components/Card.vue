@@ -14,9 +14,9 @@
 		padding: 10px;
 		box-shadow: 0px 1px 4px 2px rgba(0,0,0,0.85);
 	}
-	@media (min-width: 800px) {
+	@media (min-width: 1200px) {
 		.container {
-			width: 770px;
+			width: 1110px;
 		}
 	}
 </style>

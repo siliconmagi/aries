@@ -5,11 +5,13 @@
 		</h1>
 		<Card>
 			<h3>
-				Recent Posts:
+				Blog Posts:
 			</h3>
-			<nuxt-link to="/nuxtjs">
-				Nuxt.js - A Vue.js framework great for static websites
-			</nuxt-link>
+			<p>
+				<nuxt-link to="/nuxtjs">
+					Nuxt.js - A Feature-Rich Vue.js Framework
+				</nuxt-link>
+			</p>
 		</Card>
 	</section>
 </template>
@@ -20,12 +22,12 @@
 	}
 </style>
 <script>
-import Card from '../components/Card.vue'
+	import Card from '../components/Card.vue'
 
 export default {
-  components: {
-    Card
-  }
+	  components: {
+	    Card
+	  }
 }
 
 </script>
