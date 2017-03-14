@@ -1,33 +1,31 @@
 <template>
-	<section class="container">
-		<h1 class="title">
-			Blog page
-		</h1>
-		<Card>
-			<h3>
-				Blog Posts:
-			</h3>
-			<p>
-				<nuxt-link to="/nuxtjs">
-					Nuxt.js - A Feature-Rich Vue.js Framework
-				</nuxt-link>
-			</p>
-		</Card>
-	</section>
+  <section class="container">
+    <h1 class="title">
+      Blog
+    </h1>
+    <Card>
+      <h3>
+        Blog Posts:
+      </h3>
+      <BlogList></BlogList>
+    </Card>
+  </section>
 </template>
 
 <style scoped>
-	.title
-	{
-	}
+  .title
+  {
+  }
 </style>
 <script>
-	import Card from '../components/Card.vue'
+  import Card from '../components/Card.vue'
+  import BlogList from '../components/BlogList.vue'
 
 export default {
-	  components: {
-	    Card
-	  }
+    components: {
+      Card,
+      BlogList
+    }
 }
 
 </script>
